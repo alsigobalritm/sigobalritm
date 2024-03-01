@@ -4,13 +4,13 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		// double로 받아야하고 출력 형식 주의
-
-		double A = sc.nextDouble();
-		double B = sc.nextDouble();
-		double C = sc.nextDouble();
+		// long 으로 받는다
 		
-		System.out.printf("%.0f", (A + B + C));
+		long A = sc.nextLong();
+		long B = sc.nextLong();
+		long C = sc.nextLong();
+		
+		System.out.println(A + B + C);
 
 	}
 
